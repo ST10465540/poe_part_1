@@ -23,7 +23,7 @@ public class Fomula1 {
         while (!valid) {
             boolean hasUnderscore = Username.contains("_");
             if (hasUnderscore && Username.length() <= 5) {
-                JOptionPane.showMessageDialog(null, "Username successfully captured.");
+                JOptionPane.showMessageDialog(null, "Username successfully captured!.");
                 valid = true;
             } else {
                 JOptionPane.showMessageDialog(null,
